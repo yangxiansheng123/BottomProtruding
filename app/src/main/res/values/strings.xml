@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BottomProtruding</string>
+    <string name="analysis">分析</string>
+    <string name="education_admin">教务</string>
+    <string name="daily">日常</string>
+    <string name="finance">财务</string>
+    <string name="me">我的</string>
+</resources>

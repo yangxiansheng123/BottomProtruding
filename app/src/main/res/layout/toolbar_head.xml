@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_yellow"
+        android:gravity="center"
+        android:paddingBottom="@dimen/ToolBarBackTextPadiing"
+        android:paddingTop="@dimen/ToolBarBackTextPadiing"
+        android:text="标题"
+        android:textColor="@color/textcolor_black"
+        android:textSize="@dimen/text_size_15" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/toolbar_title"
+        android:layout_alignTop="@+id/toolbar_title">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textSize="@dimen/ToolBarMainTextSize" />
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>
